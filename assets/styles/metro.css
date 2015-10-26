@@ -1,0 +1,196 @@
+/*
+ * @CSS3 Metro Dropdown
+ * @author Martin Ivanov
+ * @website http://wemakesitesnet
+ * @blog http://acidmartin.wordpress.com
+ * @twitter https://twitter.com/#!/wemakesitesnet
+ **/
+
+:root .css3-metro-dropdown option,
+:root .css3-metro-dropdown:after,
+:root .css3-metro-dropdown::after,
+:root .css3-metro-dropdown select
+{
+    color: #031557;
+}
+
+:root .css3-metro-dropdown select,
+:root .css3-metro-dropdown:after,
+:root .css3-metro-dropdown::after
+{
+    display: block;
+    background: #FFFFFF;
+	width:400px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+:root .css3-metro-dropdown select,
+:root .css3-metro-dropdown option
+{
+    padding: 3px 8px;
+}
+
+:root .css3-metro-dropdown
+{
+    position: relative;
+    display: inline-block;
+    border: 0;
+}
+
+:root .css3-metro-dropdown::after
+{
+    content: "\25bc";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 32px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    pointer-events: none;
+}
+
+:root .css3-metro-dropdown select
+{
+   height: 30px;
+   border: 0;
+   vertical-align: middle;
+   outline: 0 none;
+}
+
+:root .css3-metro-dropdown option
+{
+    background: #fff;
+    color: #333;
+}
+
+/* more colors */
+:root .css3-metro-dropdown-color-ff1d77 select,
+:root .css3-metro-dropdown-color-ff1d77:after,
+:root .css3-metro-dropdown-color-ff1d77::after
+{
+    background: #ff1d77;
+}
+
+:root .css3-metro-dropdown-color-2673ec select,
+:root .css3-metro-dropdown-color-2673ec:after,
+:root .css3-metro-dropdown-color-2673ec::after
+{
+    background: #2673ec;
+}
+
+:root .css3-metro-dropdown-color-ff2e12 select,
+:root .css3-metro-dropdown-color-ff2e12:after,
+:root .css3-metro-dropdown-color-ff2e12::after
+{
+    background: #ff2e12;
+}
+
+@media screen and (max-width: 768px) {
+	:root .css3-metro-dropdown select,
+:root .css3-metro-dropdown:after,
+:root .css3-metro-dropdown::after
+{
+	margin-top:3px;
+}
+}
+
+/*contact*/
+
+:root .css4-metro-dropdown option,
+:root .css4-metro-dropdown:after,
+:root .css4-metro-dropdown::after,
+:root .css4-metro-dropdown select
+{
+    color: #999999;
+}
+
+:root .css4-metro-dropdown select,
+:root .css4-metro-dropdown:after,
+:root .css4-metro-dropdown::after
+{
+    display: block;
+    background: #FFFFFF;
+	width:98%;
+	margin-top:10px;
+	border:1px solid #CCCCCC;
+	border-left:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+:root .css4-metro-dropdown select,
+:root .css4-metro-dropdown option
+{
+    padding: 3px 8px;
+}
+
+:root .css4-metro-dropdown
+{
+    position: relative;
+    display: inline-block;
+    border: 0;
+}
+
+:root .css4-metro-dropdown::after
+{
+    content: "\25bc";
+    position: absolute;
+    top: 0;
+    right: 2%;
+    display: block;
+    width: 50px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+	height:43px;
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    pointer-events: none;
+}
+
+:root .css4-metro-dropdown select
+{
+	
+   height: 45px;
+   border: 0;
+   vertical-align: middle;
+	font-size:15px;
+   border:1px solid #CCCCCC;
+}
+
+:root .css4-metro-dropdown option
+{
+    background: #fff;
+    color: #333;
+}
+
+/* more colors */
+:root .css4-metro-dropdown-color-ff1d77 select,
+:root .css4-metro-dropdown-color-ff1d77:after,
+:root .css4-metro-dropdown-color-ff1d77::after
+{
+    background: #ff1d77;
+}
+
+:root .css4-metro-dropdown-color-2673ec select,
+:root .css4-metro-dropdown-color-2673ec:after,
+:root .css4-metro-dropdown-color-2673ec::after
+{
+    background: #2673ec;
+}
+
+:root .css4-metro-dropdown-color-ff2e12 select,
+:root .css4-metro-dropdown-color-ff2e12:after,
+:root .css4-metro-dropdown-color-ff2e12::after
+{
+    background: #ff2e12;
+}

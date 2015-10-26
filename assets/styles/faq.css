@@ -1,0 +1,229 @@
+﻿
+.resp-tabs-container p {
+    margin: 0px;
+    padding: 0px;
+	text-align:justify;
+	font-size:14px;
+	margin-bottom:10px;
+	color:#616161;
+	font-family: 'PT Sans', sans-serif ;
+}
+
+
+.resp-tabs-list li {
+	background:#535353;
+	color:#FFF;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+	border-right:2px solid #FFFFFF;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+.resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+	
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 10px 0px 10px 20px;
+}
+
+.resp-tab-active {
+}
+
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #d72422 !important;
+	color:#F00 !important  ;
+}
+.resp-tabs-list li:hover {
+    background-color: #626161;
+	color:#F00;
+}
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+}
+
+h2.resp-accordion {
+    font-size: 13px;
+    border: 0px solid #FF0000;
+    border-top: 2px solid #FFFFFF;
+    margin: 0px;
+    padding: 7px 15px;
+	font-family: 'PT Sans', sans-serif;
+	
+}
+#horizontalTab{
+	background:#FFFFFF ;
+}
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 7px 15px !important;
+	color:#F00 !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+    float: left;
+    width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+    display: block;
+    padding: 15px 15px !important;
+    margin: 0;
+    cursor: pointer;
+    float: none;
+	background:#960;
+	font-family: 'PT Sans', sans-serif ;
+}
+
+.resp-vtabs .resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    float: left;
+    width: 68%;
+    min-height: 250px;
+    border-radius: 4px;
+    clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+    border: none;
+}
+
+.resp-vtabs li.resp-tab-active {
+    border: 1px solid #c1c1c1;
+    border-right: none;
+    background-color: #F00;
+    position: relative;
+    z-index: 1;
+    margin-right: -1px !important;
+    padding: 14px 15px 15px 14px !important;
+}
+
+.resp-arrow {
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: 0px;
+    background:url(../images/open.jpg);
+}
+
+h2.resp-tab-active span.resp-arrow {
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: 0px;
+    background:url(../images/close.jpg);
+}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+	font-family: 'PT Sans', sans-serif ;
+    background: #eeeeee !important;
+	color:#F00 !important;
+}
+.resp-easy-accordion  h2.resp-accordion {
+        display: block;
+}
+.resp-easy-accordion .resp-tab-content {
+    border: 1px solid #FFFFFF;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+    border-bottom: 1px solid #FF0000 !important;
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+h2.resp-accordion:first-child {
+    border-top: 1px solid #FFFFFF !important;
+}
+
+@media screen and (max-width: 1000px) {
+.resp-tabs-list li {
+    font-size: 13px;
+    padding: 10px 11px;
+	}
+}
+
+@media screen and (max-width: 920px) {
+.resp-tabs-list li {
+    font-size: 12px;
+    padding: 10px 9px;
+	}
+}
+
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 2000px) {
+ul.resp-tabs-list {
+	display: none;
+	
+}
+
+h2.resp-accordion {
+	display: block;
+	background:#eeeeee;
+	color:#000 !important;
+	font-size:16px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+.resp-vtabs .resp-tab-content {
+	border: 1px solid #C1C1C1;
+	font-family: 'PT Sans', sans-serif ;
+}
+
+.resp-vtabs .resp-tabs-container {
+	border: none;
+	float: none;
+	width: 100%;
+	min-height: initial;
+	clear: none;
+}
+.resp-accordion-closed {
+	display:none !important;
+}
+.resp-vtabs .resp-tab-content:last-child {
+	border-bottom: 1px solid #c1c1c1 !important;
+}
+.resp-tab-active {
+	color:#990 !important;
+}
+}

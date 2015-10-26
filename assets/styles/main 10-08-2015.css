@@ -1,0 +1,157 @@
+﻿
+
+.navbar-toggle {
+  background-color:none;
+}
+
+
+.navbar-collapse.collapse{
+  padding-left: 0;
+}
+
+.mainmenu ul li{
+	padding:0px 0px;
+	width: 100%;
+	
+}
+
+
+
+.mainmenu ul li a {
+	display: block;
+	text-align:left;
+	position: relative;
+	margin: 0;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 14px 0% 14px 8%;
+	width: 92%;
+
+	/* Typography */
+	font-family: 'PT Sans', sans-serif;
+	color: #343434;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 300;
+
+	/* Background & effects */
+	background: #FFFFFF url(../images/menubg.jpg) repeat-x left;
+	transition: all 0.3s ease;
+   		 -webkit-transition: all 0.3s ease;
+   		 -moz-transition: all 0.3s ease;
+  		 -o-transition: all 0.3s ease;	
+}
+
+.mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
+	color: #d72422;
+	border-bottom: 1px solid #d72422;
+}
+
+
+/*  Dropdown menu*/
+
+.navbar-header 
+.navbar-toggle .icon-bar {
+    background-color: #666;
+}
+
+
+.nav.navbar-nav > li:hover > ul.sub-menu{
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  -moz-animation: fadeInUp 400ms;
+  -ms-animation: fadeInUp 400ms;
+  -o-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+}
+
+ul.sub-menu {
+	position: absolute;
+	top: 22px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.6);
+	list-style: none;
+	padding: 0;
+	padding-bottom:10px;
+	margin: 0;
+	width: 240px;
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	display: none;
+	z-index: 999;
+}
+
+.dropdown ul.sub-menu li .active{
+  color: #FDB45E;
+  padding-left: 0;
+}
+
+
+.navbar-nav li ul.sub-menu li{
+  padding: 15px 20px ;
+}
+
+.navbar-nav li ul.sub-menu li:last-child{
+  padding-bottom: 20px;
+}
+
+.navbar-nav li ul.sub-menu li a{
+  color: #fff;
+  width:100%;
+  float:left;
+  border:none;
+  padding-left:10px;
+  text-align:left !important;
+}
+
+.navbar-nav li ul.sub-menu li a:hover{
+    color: #268ece;
+	text-decoration:none;
+}
+
+.fa-angle-down{
+  padding-left: 5px; 
+  
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+  
+  	
+ @media screen and (max-width: 1130px) {
+	
+ }
+ @media screen and (max-width: 1024px) {
+	 .mainmenu ul li a {
+		font-size: 14px;	 }
+	 
+	
+	
+ }
+
+@media screen and (max-width: 900px) {
+	.mainmenu ul li a {
+		padding: 12px 5%;width: 90%;}	
+}
+
+@media screen and (max-width: 1000px) {
+	
+	
+}
+
+@media screen and (max-width: 500px) {
+	
+	
+	
+
+}

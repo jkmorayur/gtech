@@ -1,0 +1,184 @@
+
+@media (max-width: 900px) {
+.shop-menu.pull-right{
+	float: none !important;
+}
+
+.shop-menu .nav.navbar-nav{
+	margin-left: -30px;
+}
+
+.header-bottom .col-sm-9{
+	display: inline-block;
+	width: 100%;
+}
+
+.mainmenu{
+	width: 100%;
+}
+
+.mainmenu ul li{
+	padding-bottom: 0;
+}
+
+.mainmenu ul li:last-child{
+}
+
+.mainmenu ul li  a{
+	font-family: 'PT Sans', sans-serif;
+	color: #343434;
+	font-size:15px !important;
+}
+
+.navbar-collapse.in{
+	overflow: inherit;
+}
+
+.mainmenu ul li a.active{
+	padding-left: 5%;
+}
+
+.dropdown .fa-angle-down{
+	display: none;
+}
+
+ul.sub-menu{
+  position: relative;
+  width: auto;
+  display: block;
+  background: transparent;
+  box-shadow: none;
+  top: 0;
+}
+
+.sub-menu li{
+	background: transparent;
+}
+
+.mainmenu .navbar-nav li ul.sub-menu li{
+	background: transparent;
+	padding-bottom:0;
+}
+
+.nav.navbar-nav > li:hover > ul.sub-menu{
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none;
+  box-shadow: none;
+}
+
+
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+
+.btn-group.pull-right, 
+.footer-bottom .pull-left, 
+.footer-bottom .pull-right, 
+.mainmenu.pull-left,
+.media.commnets .pull-left,
+.media-list .pull-left{
+	float: none !important;
+}
+
+.header_top .col-sm-6:first-child{
+	display: block;
+	float: none;
+}
+
+.header_top .col-sm-6:last-child{
+	display: block;
+	float: none;
+}
+
+.contactinfo .nav.nav-pills, .social-icons .nav.navbar-nav{
+	display: inline-block;
+}
+
+.logo{
+	text-align: center;
+	width: 100%;
+}
+
+.shop-menu ul li {
+	padding: 0;
+}
+
+.header-middle .col-sm-4{
+	text-align: center;
+	overflow: inherit;
+}
+
+.shop-menu .nav.navbar-nav {
+	margin-left: 0;
+}
+
+.btn-group>.btn-group:last-child>.btn:first-child{
+	margin-right: 0;
+}
+
+.header-bottom .col-sm-9{
+	display: inline-block;
+	width: 100%;
+}
+
+.mainmenu{
+	width: 100%;
+}
+
+.mainmenu ul li{
+	padding-bottom: 0;
+	
+}
+
+.mainmenu ul li:last-child{
+}
+
+.mainmenu ul li  a{
+	font-size:13px !important;
+}
+
+.navbar-collapse.in{
+	overflow: inherit;
+}
+
+.mainmenu ul li a.active{
+	padding-left: 15px;
+}
+
+.dropdown .fa-angle-down{
+	display: none;
+}
+
+ul.sub-menu{
+  position: relative;
+  width: auto;
+  display: block;
+  background: transparent;
+  box-shadow: none;
+  top: 0;
+}
+
+
+.mainmenu .navbar-nav li ul.sub-menu li{
+	background: transparent;
+	padding-bottom:0;
+}
+
+.nav.navbar-nav > li:hover > ul.sub-menu{
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  -o-animation: none;
+  animation: none;
+  box-shadow: none;
+}
+
+
+
+
+}
