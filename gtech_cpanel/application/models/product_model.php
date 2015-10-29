@@ -256,6 +256,14 @@
                  }
             }
        }
+       
+       function changeStock($prdId, $status) {
+            $this->db->where('prd_id', $prdId);
+            if ($this->db->update($this->table, array('prd_in_stock' => $status))) {
+                 return true;
+            } else {
+                 return false;
+            }
+       }
        /*related to excel import*/
   }
-  

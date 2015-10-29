@@ -15,13 +15,13 @@
                               <span class="help-block"></span>
                          </div>
                     </div>
-                    <div class="form-group">
+<!--                    <div class="form-group">
                          <label class="col-md-3 control-label">Status</label>
                          <div class="col-md-4">
                               <input value="<?php echo $productsDetails['product_details']['prd_status']; ?>" type="text" name="product[prd_status]" class="form-control" id="prd_status" placeholder="Status"/>
                               <span class="help-block"></span>
                          </div>
-                    </div>
+                    </div>-->
                     <div class="form-group">
                          <label class="col-md-3 control-label">Guarantee Year</label>
                          <div class="col-md-4">

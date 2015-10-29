@@ -10,7 +10,7 @@
                               <thead>
                                    <tr>
                                         <th>Name</th>
-                                        <th>Status</th>
+                                        <th>In Stock</th>
                                         <th>Part Number</th>
                                         <th>Brand</th>
                                         <th>Category</th>
@@ -23,7 +23,10 @@
                                    <?php if(!empty($productDetails['product_details'])) { foreach ($productDetails['product_details'] as $key => $value) { ?>
                                    <tr id="tr_<?php echo $value['prd_id']; ?>">
                                         <td><?php echo $value['prd_name']; ?></td>
-                                        <td><?php echo $value['prd_status']; ?></td>
+                                        <td>
+                                             <input class="changeStock" data-url="<?php echo site_url('product/changeStock/'.$value['prd_id']); ?>" 
+                                                    type="checkbox" value="1" <?php echo ($value['prd_in_stock'] == 1) ? 'checked' : ''; ?> />
+                                        </td>
                                         <td><?php echo $value['prd_part_number']; ?></td>
                                         <td><?php echo $value['brd_title']; ?></td>
                                         <td><?php echo empty($value['category_name']) ? $value['sub_category_name'] : $value['category_name']; ?></td>
@@ -44,7 +47,7 @@
                               <tfoot>
                                    <tr>
                                         <th>Name</th>
-                                        <th>Status</th>
+                                        <th>In Stock</th>
                                         <th>Part Number</th>
                                         <th>Brand</th>
                                         <th>Category</th>

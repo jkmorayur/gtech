@@ -261,6 +261,21 @@ $(document).ready(function (event) {
           }
      });
      /*Change Order Status*/
+     /*Change in stock*/
+     $(document).on('change', '.changeStock', function () {
+          var status = ($(this).is(':checked') === true) ? 1 : 0;
+          var url = $(this).attr('data-url');
+          $.ajax({
+               type: 'post',
+               url: url,
+               dataType: 'json',
+               data: {status: status},
+               success: function (resp) {
+                    showMessage(resp.msg, resp.status);
+               }
+          });
+     });
+     /*Change in stock*/
 });
 
 function showMessage(message, type) {

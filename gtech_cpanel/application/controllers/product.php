@@ -292,5 +292,12 @@
             $this->session->set_flashdata('app_success', 'Product successfully imported!');
             redirect(strtolower(__CLASS__));
        }
+       
+       function changeStock($prdId) {
+            if($this->product_model->changeStock($prdId, $this->input->post('status'))) {
+                 echo json_encode(array('status' => 'success', 'msg' => 'In stock changed'));
+            } else {
+                 echo json_encode(array('status' => 'fail', 'msg' => "Can't change in stock"));
+            }
+       }
   }
-  
